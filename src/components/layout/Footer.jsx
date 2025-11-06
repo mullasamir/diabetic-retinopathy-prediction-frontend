@@ -26,7 +26,7 @@ const Footer = () => {
     { name: 'About', path: '/about' },
     { name: 'Login', path: '/login' },
     { name: 'Register', path: '/register' },
-    { name: 'Features', path: '/#features' },
+    { name: 'Features', path: '/about' },
     { name: 'Contact', path: '/contact' }
   ];
 
@@ -56,7 +56,7 @@ const Footer = () => {
     },
     {
       icon: Phone,
-      text: '+1 (555) 123-HELP',
+      text: '+91 1234567890',
       subtext: '24/7 Support Line'
     },
     {
@@ -72,7 +72,7 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, name: 'GitHub', url: '#', color: 'hover:text-gray-700' },
+    { icon: Github, name: 'GitHub', url: 'https://github.com/mullasamir/diabetic-retinopathy-prediction-frontend', color: 'hover:text-gray-700' },
     { icon: Twitter, name: 'Twitter', url: '#', color: 'hover:text-blue-500' },
     { icon: Linkedin, name: 'LinkedIn', url: '#', color: 'hover:text-blue-600' },
     { icon: Mail, name: 'Email', url: '#', color: 'hover:text-red-500' }
@@ -121,10 +121,10 @@ const Footer = () => {
 
               {/* Trust Badges */}
               <div className="flex flex-wrap gap-4 mb-8">
-                <div className="flex items-center space-x-2 px-3 py-2 bg-white rounded-lg border border-blue-100 shadow-sm">
+                {/* <div className="flex items-center space-x-2 px-3 py-2 bg-white rounded-lg border border-blue-100 shadow-sm">
                   <Shield className="h-4 w-4 text-green-500" />
                   <span className="text-xs font-medium text-gray-700">HIPAA Compliant</span>
-                </div>
+                </div> */}
                 <div className="flex items-center space-x-2 px-3 py-2 bg-white rounded-lg border border-blue-100 shadow-sm">
                   <Award className="h-4 w-4 text-yellow-500" />
                   <span className="text-xs font-medium text-gray-700">98% Accuracy</span>

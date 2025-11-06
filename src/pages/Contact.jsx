@@ -62,7 +62,7 @@ const Contact = () => {
       icon: Phone,
       title: 'Call Us',
       description: 'Speak directly with our healthcare solutions team',
-      details: '+1 (555) 123-HELP',
+      details: '+91 1234567890',
       action: 'tel:+15551234567',
       color: 'from-green-500 to-emerald-500'
     },
@@ -78,26 +78,26 @@ const Contact = () => {
 
   const officeLocations = [
     {
-      city: 'New York',
+      city: ' KIT, Kolhapur',
       address: '123 Healthcare Ave, Medical District',
-      phone: '+1 (555) 123-4567',
+      phone: '+91 1234567890',
       hours: 'Mon-Fri: 9:00 AM - 6:00 PM EST',
       image: '🏙️'
     },
-    {
-      city: 'San Francisco',
-      address: '456 Tech Boulevard, Innovation Center',
-      phone: '+1 (555) 123-4568',
-      hours: 'Mon-Fri: 8:00 AM - 5:00 PM PST',
-      image: '🌉'
-    },
-    {
-      city: 'London',
-      address: '789 Medical Square, Healthcare Hub',
-      phone: '+44 20 7946 0958',
-      hours: 'Mon-Fri: 9:00 AM - 5:00 PM GMT',
-      image: '🇬🇧'
-    }
+    // {
+    //   city: 'San Francisco',
+    //   address: '456 Tech Boulevard, Innovation Center',
+    //   phone: '+1 (555) 123-4568',
+    //   hours: 'Mon-Fri: 8:00 AM - 5:00 PM PST',
+    //   image: '🌉'
+    // },
+    // {
+    //   city: 'London',
+    //   address: '789 Medical Square, Healthcare Hub',
+    //   phone: '+44 20 7946 0958',
+    //   hours: 'Mon-Fri: 9:00 AM - 5:00 PM GMT',
+    //   image: '🇬🇧'
+    // }
   ];
 
   const inquiryTypes = [
@@ -415,7 +415,7 @@ const Contact = () => {
                   <div className="flex items-start space-x-3">
                     <Shield className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <h4 className="font-semibold text-gray-900">HIPAA Compliant</h4>
+                      <h4 className="font-semibold text-gray-900">Security</h4>
                       <p className="text-gray-600 text-sm">Enterprise-grade security and compliance</p>
                     </div>
                   </div>

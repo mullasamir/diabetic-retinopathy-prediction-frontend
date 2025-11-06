@@ -158,11 +158,11 @@ const Login = () => {
           <div className="bg-blue-50 border-t border-blue-100 px-8 py-4 text-xs text-gray-600 flex justify-center gap-4">
             <div className="flex items-center gap-1">
               <Shield className="w-3 h-3 text-green-500" />
-              <span>Bank-level Security</span>
+              <span>Your Security</span>
             </div>
             <div className="flex items-center gap-1">
               <Zap className="w-3 h-3 text-blue-500" />
-              <span>HIPAA Compliant</span>
+              <span>Our Priority</span>
             </div>
           </div>
         </div>

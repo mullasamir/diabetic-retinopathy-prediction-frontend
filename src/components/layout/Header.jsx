@@ -82,9 +82,11 @@ const Header = () => {
             {[
               { path: '/', label: 'Home' },
               { path: '/about', label: 'About' },
-              { path: '/login', label: 'Login' },
+              // { path: '/login', label: 'Login' },
               { path: '/register', label: 'Register' },
               { path: '/contact', label: 'Contact'},
+              { path : '/detect' , label : 'Prediction'},
+              
             ].map((item) => (
               <Link
                 key={item.path}

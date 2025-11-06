@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { 
   Upload, Shield, Zap, BarChart3, ArrowRight, Play, Star, Users, Target, 
   Heart, Eye, Clock, CheckCircle, Award, Globe, Cpu, Stethoscope,
-  FileText, TrendingUp, ShieldCheck, Smartphone, Database, Cloud
+  FileText, TrendingUp, ShieldCheck, Smartphone, Database, Cloud,
+  Sparkles
 } from 'lucide-react';
 
 const Home = () => {
@@ -136,7 +137,7 @@ const Home = () => {
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-ping"></div>
                 <span className="text-sm font-semibold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-                  FDA-Cleared AI Technology
+                  AI That Sees What the Eye Can’t
                 </span>
               </div>
             </div>
@@ -148,16 +149,17 @@ const Home = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-4xl mx-auto leading-relaxed font-light">
-              Revolutionizing diabetic retinopathy screening with FDA-cleared artificial intelligence. 
-              Get instant, clinical-grade analysis that helps prevent vision loss through early intervention.
+              Revolutionizing diabetic retinopathy screening with Our advanced diabetic retinopathy screening system provides rapid, clinical-grade results
+              empowering doctors and patients to act before vision loss begins.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mb-20">
-              <Link to="/login" className="btn-primary group">
+              <Link to="/detect" className="btn-primary group">
                 <span className="flex items-center space-x-2">
-                  <Play className="h-5 w-5" />
-                  <span>Get Started Free</span>
+                  {/* <Play className="h-5 w-5" /> */}
+                  <Sparkles className="h-5 w-5" />
+                  <span>Try Prediction</span>
                   <ArrowRight className="h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
                 </span>
               </Link>
