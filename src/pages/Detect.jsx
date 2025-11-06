@@ -10,7 +10,7 @@ const Detect = () => {
 
   const fetchHistory = async () => {
     try {
-      const res = await fetch("https://diabetic-retinopathy-prediction-backend-4.onrender.com/predictions");
+      const res = await fetch("http://127.0.0.1:8000/predictions");
       const data = await res.json();
       setHistory(data.reverse().slice(0, 10)); // show only last 10
     } catch (err) {
@@ -41,7 +41,7 @@ const Detect = () => {
     formData.append("model_name", model);
 
     try {
-      const res = await fetch("https://diabetic-retinopathy-prediction-backend-4.onrender.com/predict", {
+      const res = await fetch("http://127.0.0.1:8000/predict", {
         method: "POST",
         body: formData,
       });
